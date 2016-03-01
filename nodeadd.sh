@@ -11,3 +11,8 @@ knife ssl fetch -s https://chefsrvr.o3c.in
 scp 172.16.10.192:/root/Documents/client.rb /etc/chef/
 chef-client -S https://chefsrvr.o3c.in -K /etc/chef/chef-validator.pem
 
+
+
+
+
+
